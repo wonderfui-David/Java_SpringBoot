@@ -30,7 +30,7 @@ import java.util.List;
 @RequestMapping("/sms/adminController")
 public class AdminController {
 
-    @Resource
+     @Resource
     private AdminService adminService;
 
     @ApiOperation("查询管理员信息,分页带条件")
